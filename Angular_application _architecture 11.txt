@@ -8,13 +8,13 @@ CRM Application
             edit-contact -> components inside module 
             delete-contact -> components inside module 
             view-contact -> components inside module 
-        users
+        users -module
             add-user -> components inside module 
-        orders
-        leads
-        reports
-        settings
-        profile
+        orders -module
+        leads -module
+        reports -module
+        settings -module
+        profile -module
 
         shared
             auth
