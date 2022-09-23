@@ -15,7 +15,8 @@ Episode #24 - Data Binding
 5. Data can be from template to component -> one way 
 
 6. Two way  to/from component 
-            from/to   template
+            from component to   template
+            from templete to component
 
 7. One way/Two way is nothing but representation of data flow 
     -> one way
