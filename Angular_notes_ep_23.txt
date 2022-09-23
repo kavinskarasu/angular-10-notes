@@ -4,6 +4,7 @@ Episode #23 - ngClass
 
 2. we can provide more than 1 class names using ngClass 
     -> we can re-use the code for multiple DOM elements 
+    -> we can use multile style classes in ng class
 
 3. We can pass strings
 
@@ -27,5 +28,6 @@ hands-on examples:
 4. <div [ngClass]="conditionClsProp === 'c4'? 'c4' : 'c5'">This is ngClass using conditional check example</div>
 
 5. <div [ngClass]="{c4: true, c5: false}">This is ngClass using Object example</div>
+6 <div  [ngClass]="getClassName();">This is ngClass using Method example</div>
 
 6. Try out the method returning class name to [ngClass]
