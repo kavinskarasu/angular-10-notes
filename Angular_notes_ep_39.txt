@@ -7,8 +7,9 @@ Episode #39 - Base Href
 3. The project is pointing to the "root" directory/folder of your server which is running at 4200 port 
 
 4. When your deploying your Angular apps to server 
-
+     default it will be in root folder like http://myapp.com/ if we want to change like  -> http://myapp.com/app1/ we want to change in index.html
     -> root folder 
+
 
     -> http://myapp.com/app1/
 
