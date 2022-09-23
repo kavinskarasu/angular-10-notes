@@ -1,5 +1,8 @@
 Episode #17 - Directives 
 
+without Directives we cannot create any angular application  default it will have appcomponent -> component directives
+
+
 1. Directive is a way to extend our HTML including both view as well as behaviour
 
 2. Directives are used to extend the power of HTML 
@@ -7,6 +10,9 @@ Episode #17 - Directives
 3. Mainly 3 types of directives 
 
     Component Directive 
+    ->every angular application must have atlest 1 component 
+    -> Have it's own templete
+    ->Event attached
 
     Structural Directive 
         ngIf
