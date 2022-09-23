@@ -25,3 +25,16 @@ Episode #24 - Data Binding
     <-
 
 
+one -way Data Binding
+   Component to View
+      -> Interpolation
+      -> property Binding
+      -> Style Binding
+      -> Attribute Binding
+      
+      View to Component 
+        Event Binding
+        
+        
+   two-way Data Binding
+      ->  Data flows from view to Component and back to Component from the view=
