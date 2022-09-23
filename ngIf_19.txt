@@ -1,0 +1,41 @@
+Episode #19 - ngIf 
+
+1. It will always have * astrisk symobl 
+2. Built in structural directive 
+3. The ngIf condition will evaluate the expression and result true or false 
+4. We can use OR (||), And ( &&) and we can also use NOT(!) operators inside ngIf
+
+5. We can have multiple use cases 
+
+    - ngIf -> done
+        -> logical opeartors 
+            OR (||)
+            AND (&&)
+            NOT (!)
+    - ngIf else -> 
+    - ngIf then else 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div *ngIf="condition">Content to render when condition is true.</div>
+    
+    
+    
+    <ng-template [ngIf]="condition"><div>Content to render when condition is
+true.</div></ng-template>
+
+
+<div *ngIf="condition; else elseBlock">Content to render when condition is true.</div>
+<ng-template #elseBlock>Content to render when condition is false.</ng-template>
+
+
+
+
+<div *ngIf="condition; else elseBlock">Content to render when condition is true.</div>
+<ng-template #elseBlock>Content to render when condition is false.</ng-template>
